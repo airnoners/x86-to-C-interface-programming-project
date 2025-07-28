@@ -8,11 +8,6 @@ This project demonstrates high-performance dot product computation through:
 - An optimized x86-64 assembly version using scalar SIMD instructions
 - Rigorous benchmarking and correctness validation
 
-**Key Features:**
-- 3.4–3.6x speedup over C with perfect numerical accuracy
-- Handles vectors up to 268,435,456 elements (2²⁸)
-- Fully compliant with Windows x64 calling conventions
-
 ## Technical Specifications
 
 ### Kernel Implementations
