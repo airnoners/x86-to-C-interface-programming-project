@@ -52,10 +52,9 @@ asmDotProduct:
 - Scalability: Performance advantage decreases slightly at largest size (n=2²⁸) due to memory bandwidth limitations
 
 **Why Assembly Performs Better**
-- Direct hardware control: Precise use of SIMD registers (xmm0-xmm1)
-- Optimized instruction flow: Tight loop with minimal overhead
-- Efficient accumulation: Dedicated register for sum (xmm0)
-
+- Manual control of registers/memory: Precise use of SIMD registers
+- Efficient accumulation: Dedicated register for sum
+  
 ### Build Instructions
 Compilation
 - nasm -f win64 asmfunc.asm
