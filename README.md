@@ -24,3 +24,6 @@ This project demonstrates high-performance dot product computation through:
 - NASM 
 - MinGW-w64 
 - Windows 
+
+### Link for the video
+https://youtu.be/Go8VMpt8YcM
