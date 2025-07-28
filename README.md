@@ -1,6 +1,6 @@
 # x86-64 to C Interface: Dot Product Optimization
 
-![Benchmark Results](screenshots/benchmark_summary.png) *Example benchmark output*
+![Benchmark Results](/docs/screenshots/benchmark_summary.png) *Benchmark output*
 
 ## Project Overview
 This project demonstrates high-performance dot product computation through:
