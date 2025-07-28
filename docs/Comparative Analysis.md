@@ -64,4 +64,4 @@ Compilation
 
 ### Conclusion
 Conclusion
-The hand-optimized x86-64 assembly implementation demonstrates significant performance advantages (3.4-3.7x speedup) over the C version while maintaining perfect numerical accuracy. The results show consistent improvements across all tested vector sizes, with the assembly version being particularly efficient for smaller datasets where memory bandwidth is less of a limiting factor.
+The hand-optimized x86-64 assembly implementation demonstrates significant performance advantages over the C version while maintaining accuracy. The results show consistent improvements across all tested vector sizes, with the assembly version being particularly efficient where memory bandwidth is less of a limiting factor.
